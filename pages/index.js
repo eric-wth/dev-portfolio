@@ -15,7 +15,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Eric's Portfolio</h1>
+            <h1 className="font-burtons text-xl">ericDev Portfolio</h1>
             <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               href="#projects"              
             >
@@ -30,11 +30,11 @@ export default function Home() {
               Frontend Developer <br />
               (react.js, next.js, tailwindcss)
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            {/* <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services in frontend development
-            </p>
+            </p> */}
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={avatar} layout="fill" objectFit="cover" />
+              <Image src={avatar} alt='' layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -44,14 +44,14 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               My services include developing and maintaining websites.
-              Below are some projects I have developed.
+              Below are some projects I have implemented.
             </p>
           </div>
         </section>
 
         <section id='projects' className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
+            <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Below are projects that I have worked on.             
             </p>            
@@ -61,6 +61,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1 ">
               <Image
                 src={manageHomepage}
+                alt=''
                 className="rounded-lg object-cover"
                 width-200
                 height-200
@@ -68,7 +69,7 @@ export default function Home() {
               />
 
               <p class='text-white text-1xl'>
-                This is project from frontend mentor that I implemented in
+                This is a project from frontend mentor that I implemented in
                 next.js and tailwindcss.                
               </p> 
 
