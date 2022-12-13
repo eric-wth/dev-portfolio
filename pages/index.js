@@ -55,6 +55,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Projects Section */}
         <section id='projects' className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
@@ -79,7 +80,7 @@ export default function Home() {
                 next.js and tailwindcss.                
               </p> 
 
-              <a href='https://github.com/eric-wth/form-validation' target='_blank' class='text-red-200 underline'>
+              <a href='https://github.com/eric-wth/form-validation' target='_blank' rel="noopener" class='text-red-200 underline'>
                   Github repo
               </a>             
             </div>
@@ -99,7 +100,7 @@ export default function Home() {
                 The calculator is implemented in html, css, and javascript.       
               </p> 
 
-              <a href='https://github.com/eric-wth/calculator-assignment' target='_blank' class='text-red-200 underline'>
+              <a href='https://github.com/eric-wth/calculator-assignment' target='_blank' rel="noopener" class='text-red-200 underline'>
                   Github repo
               </a>             
             </div>
@@ -120,7 +121,7 @@ export default function Home() {
                 The form is implemented html, css, and javascript.       
               </p> 
 
-              <a href='https://github.com/eric-wth/calculator-assignment' target='_blank' class='text-red-200 underline'>
+              <a href='https://github.com/eric-wth/calculator-assignment' target='_blank' rel="noopener" class='text-red-200 underline'>
                   Github repo
               </a>             
             </div>                  
