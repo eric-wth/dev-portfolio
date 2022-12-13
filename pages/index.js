@@ -2,8 +2,8 @@ import Head from "next/head";
 import avatar from "../public/bitmoji-avatar.png";
 import Image from "next/image";
 import manageHomepage from "../public/manage-homepage.jpg";
-import calculator from "../public/calculator.png";
-import formValidation from "../public/form-validation.png";
+import calculator from "../public/calculator.PNG";
+import formValidation from "../public/form-validation.PNG";
 
 export default function Home() {
   return (
