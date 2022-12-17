@@ -5,6 +5,7 @@ import manageHomepage from "../public/manage-homepage.jpg";
 import calculator from "../public/calculator.PNG";
 import formValidation from "../public/form-validation.PNG";
 import birthdayReminder from "../public/birthday-reminder.PNG";
+import toursApp from "../public/tours-app.PNG";
 
 export default function Home() {
   return (
@@ -130,7 +131,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1 ">
               <Image
                 src={birthdayReminder}
-                alt='form validation project'
+                alt='birthday reminder app'
                 className="rounded-lg object-cover"
                 width={100}
                 height={100}
@@ -144,7 +145,26 @@ export default function Home() {
               <a href='https://github.com/eric-wth/birthday-reminder-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
-            </div>                  
+            </div>
+
+            <div className="basis-1/3 flex-1 ">
+              <Image
+                src={toursApp}
+                alt='tours app'
+                className="rounded-lg object-cover"
+                width={100}
+                height={100}
+                layout="responsive"                
+              />
+
+              <p class='text-white text-1xl'>
+                This is a personal project I did to practice the useEffect hook and conditional rendering in react.
+              </p> 
+
+              <a href='https://github.com/eric-wth/tours-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
+                  Github repo
+              </a>             
+            </div>                
           </div>
         </section>
       </main>
