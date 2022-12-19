@@ -12,7 +12,7 @@ import searchApp from "../public/app-with-search.PNG";
 import faqApp from "../public/faq-section.PNG";
 import shoppingCart from "../public/shopping-cart.PNG";
 
-export default function Home() {
+function Home() {
   return (
     <div className="dark">
       <Head>
@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="mx-auto bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl">ericDev Portfolio</h1>
@@ -41,7 +41,15 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Frontend Developer <br />
-              (react.js, next.js, tailwindcss)
+              <br />
+              <ul className='grid grid-cols-1 sm:grid-cols-2'>
+                <li>HTML</li>
+                <li>Vanilla CSS</li>
+                <li>TailwindCSS</li>
+                <li>Vanilla JavaScript</li>
+                <li>React.js</li>
+                <li>Next.js</li>
+              </ul>
             </h3>
             {/* <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services in frontend development
@@ -256,3 +264,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
