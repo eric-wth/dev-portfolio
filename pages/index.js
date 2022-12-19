@@ -8,6 +8,7 @@ import birthdayReminder from "../public/birthday-reminder.PNG";
 import toursApp from "../public/tours-app.PNG";
 import loremIpsum from "../public/lorem-ipsum-generator.PNG";
 import navbar from "../public/navbar.PNG";
+import searchApp from "../public/app-with-search.PNG";
 
 export default function Home() {
   return (
@@ -202,6 +203,27 @@ export default function Home() {
               </p> 
 
               <a href='https://github.com/eric-wth/navbar-react' target='_blank' rel="noreferrer" class='text-red-200 underline'>
+                  Github repo
+              </a>             
+            </div>
+
+            <div className="basis-1/3 flex-1 ">
+              <Image
+                src={filterApp}
+                alt='app with search functionality'
+                className="rounded-lg object-cover"
+                width={100}
+                height={100}
+                layout="responsive"                
+              />
+
+              <p class='text-white text-1xl'>
+                This is a personal project I did to practice implementing search functionality
+                on a web app.
+                The project was implemented with html, css, and javascript.
+              </p> 
+
+              <a href='https://github.com/eric-wth/search-functionality-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
             </div>                
