@@ -54,7 +54,7 @@ function Home() {
             {/* <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services in frontend development
             </p> */}
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-48 h-48 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={avatar} alt='' layout="fill" objectFit="cover" />
             </div>
           </div>
