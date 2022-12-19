@@ -10,6 +10,7 @@ import loremIpsum from "../public/lorem-ipsum-generator.PNG";
 import navbar from "../public/navbar.PNG";
 import searchApp from "../public/app-with-search.PNG";
 import faqApp from "../public/faq-section.PNG";
+import shoppingCart from "../public/shopping-cart.PNG";
 
 export default function Home() {
   return (
@@ -80,12 +81,10 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a project from frontend mentor that I implemented in
                 next.js and tailwindcss.                
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/manage-site-landing-page' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -100,12 +99,10 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is an assignment I did in a frontend training program.
                 The calculator is implemented in html, css, and javascript.       
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/calculator-assignment' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -120,13 +117,11 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a personal project I did to practice implementing
                 form validation with vanilla javascript.
                 The form is implemented html, css, and javascript.       
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/form-validation' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -141,11 +136,9 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a personal project I did to practice the useState hook in react.
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/birthday-reminder-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -160,11 +153,9 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a personal project I did to practice the useEffect hook and conditional rendering in react.
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/tours-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -179,11 +170,9 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a personal project I did to practice forms in react.
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/lorem-ipsum-generator' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -198,11 +187,9 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a personal project I did to practice the useRef hook in react.
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/navbar-react' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -217,13 +204,11 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a personal project I did to practice implementing search functionality
                 on a web app.
                 The project was implemented with html, css, and javascript.
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/search-functionality-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
@@ -238,14 +223,30 @@ export default function Home() {
                 height={100}
                 layout="responsive"                
               />
-
               <p class='text-white text-1xl'>
                 This is a personal project I did to practice adding event listeners and
                 using toggle.
                 The project was implemented with html, css, and javascript.
-              </p> 
-
+              </p>
               <a href='https://github.com/eric-wth/faq-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
+                  Github repo
+              </a>             
+            </div>
+
+            <div className="basis-1/3 flex-1 ">
+              <Image
+                src={shoppingCart}
+                alt='shopping cart app'
+                className="rounded-lg object-cover"
+                width={100}
+                height={100}
+                layout="responsive"                
+              />
+              <p class='text-white text-1xl'>
+                This is a personal project I did to practice the useContext
+                and useReducer hooks in react.
+              </p>
+              <a href='https://github.com/eric-wth/shopping-cart' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
             </div>             
