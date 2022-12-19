@@ -7,6 +7,7 @@ import formValidation from "../public/form-validation.PNG";
 import birthdayReminder from "../public/birthday-reminder.PNG";
 import toursApp from "../public/tours-app.PNG";
 import loremIpsum from "../public/lorem-ipsum-generator.PNG";
+import navbar from "../public/navbar.PNG";
 
 export default function Home() {
   return (
@@ -181,7 +182,26 @@ export default function Home() {
                 This is a personal project I did to practice forms in react.
               </p> 
 
-              <a href='https://github.com/eric-wth/tours-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
+              <a href='https://github.com/eric-wth/lorem-ipsum-generator' target='_blank' rel="noreferrer" class='text-red-200 underline'>
+                  Github repo
+              </a>             
+            </div>
+
+            <div className="basis-1/3 flex-1 ">
+              <Image
+                src={navbar}
+                alt='navbar implemented in react'
+                className="rounded-lg object-cover"
+                width={100}
+                height={100}
+                layout="responsive"                
+              />
+
+              <p class='text-white text-1xl'>
+                This is a personal project I did to practice the useRef hook in react.
+              </p> 
+
+              <a href='https://github.com/eric-wth/navbar-react' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
             </div>                
