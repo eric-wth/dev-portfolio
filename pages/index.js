@@ -209,7 +209,7 @@ export default function Home() {
 
             <div className="basis-1/3 flex-1 ">
               <Image
-                src={filterApp}
+                src={searchApp}
                 alt='app with search functionality'
                 className="rounded-lg object-cover"
                 width={100}
@@ -226,7 +226,7 @@ export default function Home() {
               <a href='https://github.com/eric-wth/search-functionality-app' target='_blank' rel="noreferrer" class='text-red-200 underline'>
                   Github repo
               </a>             
-            </div>                
+            </div>             
           </div>
         </section>
       </main>
