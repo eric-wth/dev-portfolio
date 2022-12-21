@@ -1,6 +1,7 @@
 import Head from "next/head";
 import avatar from "../public/bitmoji-avatar.png";
 import Image from "next/image";
+import linkedin from "../public/linkedin.png";
 import manageHomepage from "../public/manage-homepage.jpg";
 import calculator from "../public/calculator.PNG";
 import formValidation from "../public/form-validation.PNG";
@@ -39,9 +40,14 @@ function Home() {
             <h2 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Eric W.
             </h2>
+            
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Frontend Developer <br />
+              <a href='https://www.linkedin.com/in/eric-waithaka/' target='_blank' rel="noreferrer">
+                <Image src={linkedin} />
+              </a>
               <br />
+
               <ul className='grid grid-cols-1 sm:grid-cols-2'>
                 <li>HTML</li>
                 <li>CSS</li>
